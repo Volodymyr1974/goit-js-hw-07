@@ -36,7 +36,7 @@ function onImgDivContainer(event) {
     if (!isGalleryImageEl) {
         return;
     }
-    console.log(event.target);
+    
 
     const instance = basicLightbox.create(`
     <img src="${event.target.dataset.source}" width="800" height="600">

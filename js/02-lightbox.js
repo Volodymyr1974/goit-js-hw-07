@@ -22,3 +22,11 @@ const markup = makeImgGalleryMarkup(galleryItems);
 
 
 imgDivContainerEl.insertAdjacentHTML('beforeend', markup);
+
+
+var lightbox = new SimpleLightbox('.gallery__item', {
+    
+    /* options */
+    captionsData: 'alt',
+    captionDelay: 250,
+});
